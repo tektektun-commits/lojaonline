@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título do site: altere o nome/slogan conforme sua marca -->
+    <title>TikTok Shop - Ofertas Exclusivas</title>
+    <!-- CSS principal: se renomear o arquivo ou mover, ajuste o href -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones (Font Awesome): remova se não usar ícones ou atualize a versão -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-left">
+                <!-- Marca/Logo: troque o texto da marca ou substitua por uma imagem -->
+                <div class="logo">TikTok Shop</div>
+            </div>
+            <div class="header-right">
+                <div class="cart-icon"><i class="fas fa-shopping-cart"></i></div>
+            </div>
+        </header>
+
+        <section class="product-images">
+            <div class="image-container">
+                <!-- Imagem principal do produto: troque o arquivo em `src` (mantenha id="main-image") -->
+                <img src="./813Deule2vL._AC_SX679_.jpg" alt="Produto" class="product-main-image" id="main-image">
+                <!-- Contador é atualizado via JS automaticamente; não precisa editar manualmente -->
+                <div class="image-counter">1/5</div>
+                <div class="image-nav-buttons">
+                    <button class="nav-btn prev-btn" disabled><i class="fas fa-chevron-left"></i></button>
+                    <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <!-- Miniaturas: adicione/remova blocos .thumbnail; use `data-src` com a imagem grande -->
+            <div class="image-thumbnails">
+                <div class="thumbnail active">
+                    <img src="C:\Users\Zk\Desktop\nerd\ideia loja online\813Deule2vL._AC_SX679_.jpg" data-src="./813Deule2vL._AC_SX679_.jpg" alt="Thumbnail 1">
+                </div>
+                <div class="thumbnail">
+                    <img src="./71QyldC7gPL._AC_SL1500_.jpg" data-src="./71QyldC7gPL._AC_SL1500_.jpg" alt="Thumbnail 2">
+                </div>
+                <div class="thumbnail">
+                    <img src="./81+Z32kpPRL._AC_SX679_.jpg" data-src="./81+Z32kpPRL._AC_SX679_.jpg" alt="Thumbnail 3">
+                </div>
+                <div class="thumbnail">
+                    <img src="C:\Users\Zk\Desktop\nerd\ideia loja online\51KtRqelHrL._AC_SY879_.jpg" alt="Thumbnail 4">
+                </div>
+                <div class="thumbnail">
+                    <img src="C:\Users\Zk\Desktop\nerd\ideia loja online\919m0vfUcbL._AC_SX679_.jpg" alt="Thumbnail 5">
+                </div>
+            </div>
+        </section>
+
+        <section class="product-info">
+            <div class="flash-sale">
+                <i class="fas fa-bolt"></i> OFERTA RELÂMPAGO ACABA EM <span id="countdown">05:00</span>
+            </div>
+            <!-- Título do produto: troque pelo nome do seu item -->
+            <h1 class="product-title">Árvore de Natal Luxo Super Premium Pinheiro 1,80 m</h1>
+            <!-- Preços: ajuste valores e moeda; o desconto é texto livre -->
+            <div class="price-container">
+                <div class="price-original">De R$ 459,90</div>
+                <div class="price-current">Por R$ 49,90</div>
+                <div class="price-discount">90% OFF</div>
+            </div>
+            <!-- Frete/Entrega: altere textos e datas conforme sua política -->
+            <div class="shipping-info">
+                <span class="shipping-icon"><i class="fas fa-truck"></i></span>
+                <span class="shipping-text">Frete Grátis</span>
+                <div class="delivery-date">Receba até 21 de out - 22 de out</div>
+            </div>
+            <div class="payment-options">
+                
+                <!-- Avaliação/Vendas: ajuste estrelas, nota e quantidade vendida -->
+                <div class="payment-rating">
+                    <span class="stars">★★★★<span class="half-star">★</span></span>
+                    <span class="rating-text">4.5</span>
+                    <span class="sales-count">• Vendidos +1500</span>
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <!-- Botão de compra: troque o URL do checkout e o texto do botão -->
+            <a href="https://checkout.comprasegurax.shop/VCCL1O8SCDV9" class="buy-now-btn" target="_blank">COMPRAR AGORA</a>
+            <!-- Botão secundário: ajuste o destino do link e o texto -->
+            <a href="#reviews" class="add-to-cart-btn">VER AVALIAÇÕES</a>
+        </section>
+
+        <section class="product-description">
+            <h2 class="section-title">Descrição do Produto</h2>
+            <!-- Descrição: substitua os parágrafos e bullets conforme seu produto -->
+            <div class="description-content">
+                <p>Esta Árvore de Natal, com 1,80m de altura e 420 galhos, foi desenvolvida com a mais alta qualidade para garantir uma decoração luxuosa e segura. Sua estrutura robusta em aço galvanizado suporta enfeites pesados. Possui folhas realistas, galhos flexíveis de fácil ajuste, e tecnologia anti-UV para cores vibrantes por anos. Ideal para famílias, ela se compacta na bolsa térmica inclusa após as festas.</p>
+                <ul class="features-list">
+                    <li><i class="fas fa-check-circle"></i> Alta qualidade garantida</li>
+                    <li><i class="fas fa-check-circle"></i> Design exclusivo</li>
+                    <li><i class="fas fa-check-circle"></i> Durabilidade comprovada</li>
+                    <li><i class="fas fa-check-circle"></i> Satisfação garantida ou seu dinheiro de volta</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Avaliações: conteúdo fictício; troque nomes, notas e textos ou integre dados reais -->
+        <section class="reviews-section" id="reviews">
+            <h2 class="section-title">Avaliações dos Clientes</h2>
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="reviewer-info">
+                            <div class="reviewer-name">Maria C. Silva</div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        Essa árvore é linda, perfeita, minha mãe gostou demais
+                    </div>
+                    <div class="review-photos">
+                        <img src="C:\Users\Zk\Desktop\nerd\ideia loja online\715aAfT0RHL.jpg" alt="Foto de avaliação" class="review-photo">
+                    </div>
+                    <div class="review-time">
+                        <span class="time-ago">há 1 hora</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="reviewer-info">
+                            <div class="reviewer-name">João Santos</div>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        Muito TOP já indiquei para todos os meus amigos, as folhas e os galhos são bem macios, perfeita.
+                    </div>
+                    <div class="review-photos">
+                        <img src="C:\Users\Zk\Desktop\nerd\ideia loja online\81Sf57LJ45L.jpg" alt="Foto de avaliação" class="review-photo">
+                    </div>
+                    <div class="review-time">
+                        <span class="time-ago">há 3 horas</span>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar"><i class="fas fa-user-circle"></i></div>
+                        <div class="reviewer-info">
+                            <div class="reviewer-name">Ana Oliveira</div>
+                            <div class="review-rating">★★★★☆</div>
+                        </div>
+                    </div>
+                    <div class="review-content">
+                        Muito bom! Só não dei 5 estrelas porque demorou um pouco mas tudo bem porque comprei antecipadamente.
+                    </div>
+                    <div class="review-photos">
+                        <img src="C:\Users\Zk\Desktop\nerd\ideia loja online\81maXJg20NL.jpg" alt="Foto de avaliação" class="review-photo">
+                    </div>
+                    <div class="review-time">
+                        <span class="time-ago">há 20 horas</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção App: edite textos e URLs dos botões (Google Play / App Store) -->
+        <section class="download-app">
+            <h2 class="section-title">Baixe o App da TikTok Shop</h2>
+            <p class="app-description">Tenha acesso a ofertas exclusivas e descontos incríveis!</p>
+            <div class="app-buttons">
+                <a href="#" class="app-button"><i class="fab fa-google-play"></i> Google Play</a>
+                <a href="#" class="app-button"><i class="fab fa-apple"></i> App Store</a>
+            </div>
+        </section>
+
+        <!-- Rodapé: troque marca, links e ano do copyright -->
+        <footer class="footer">
+            <div class="footer-logo">
+                <div class="logo">TikTok Shop</div>
+            </div>
+            <div class="footer-links">
+                <a href="#" class="footer-link">Termos de Uso</a>
+                <a href="#" class="footer-link">Política de Privacidade</a>
+                <a href="#" class="footer-link">Ajuda</a>
+            </div>
+            <div class="footer-copyright">
+                © 2025 TikTok Shop. Todos os direitos reservados.
+            </div>
+        </footer>
+    </div>
+
+    <!-- Script principal: se não precisar de JS, remova; se mover o arquivo, ajuste o src -->
+    <script src="script.js"></script>
+</body>
+</html>
